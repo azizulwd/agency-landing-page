@@ -24,7 +24,14 @@ a{
 ul{
     list-style: none;
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 35px;
+}
 .link_btn {
+    display: inline-block;
     background: #7fc9fb;
     padding: 12px 25px;
     border-radius: 5px;
@@ -40,6 +47,13 @@ ul{
     align-items: center;
     gap: 20px;
 }
+.flex_3{
+    display: flex;
+    align-items: center;
+}
+.child{
+    width: 50%;
+}
 
 
 
@@ -49,11 +63,12 @@ Header-Css
 header{
     background: linear-gradient(to right, #5533ff, #28d4f6);
     padding: 15px 0;
+    box-shadow: 0 0 10px red;
 }
 nav ul li a {
     padding: 12px 0;
     color: #fff;
-    font-size: 17px;
+    font-size: 18px;
     position: relative;
 }
 #activeHome::after{
@@ -80,12 +95,55 @@ nav ul li a::after{
 nav ul li a:hover::after{
     transform: scaleX(1);
 }
-nav ul li a:last-child::after{
+#activeDownload::after{
     transform: scaleX(0);
 }
-nav ul li a:last-child{
+#activeDownload{
     transition: 0.3s;
 }
-nav ul li a:last-child:hover{
+#activeDownload:hover{
     box-shadow: none;
+}
+
+
+/* =============================
+Banner-Css
+============================= */
+.banner{
+    background: linear-gradient(to right, #5533ff, #28d4f6);
+    height: 550px;
+    margin-bottom: 150px;
+}
+.banner_container{
+    padding-top: 50px;
+}
+.banner_info h2 {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.banner_info p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+#activeContact{
+    background: #fff;
+    color: #3ecf8e;
+    border: 1px solid #fff;
+}
+.banner_info a {
+    font-size: 15px;
+    color: #fff;
+    background: #3ecf8e;
+    border: 1px solid #3ecf8e;
+    box-shadow: none;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.banner_info a:hover{
+    background: none;
+    border: 1px solid #fff;
+}
+.banner_img img{
+    width: 100%;
 }
