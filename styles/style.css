@@ -187,3 +187,27 @@ Service-Css
 .service p {
     color: gray;
 }
+
+
+/* =============================
+Business-strategy-Css
+============================= */
+.business_strategy{
+    margin-bottom: 150px;
+}
+.strategy .strategy_img img{
+    width: 80%;
+}
+.strategy .strategy_info h2 {
+    color: #151948;
+    margin-bottom: 25px;
+}
+.strategy .strategy_info p {
+    color: gray;
+    margin-bottom: 25px;
+    line-height: 26px;
+}
+.strategy .strategy_info a {
+    background: #3ecf8e;
+    color: #fff;
+}
