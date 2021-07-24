@@ -147,3 +147,43 @@ Banner-Css
 .banner_img img{
     width: 100%;
 }
+
+
+
+/* =============================
+Service-Css
+============================= */
+.service_section{
+    margin-bottom: 150px;
+}
+.services{
+    gap: 30px;
+}
+.service {
+    border: 1px solid lightgray;
+    padding: 60px 25px;
+    text-align: center;
+    transition: 0.4s;
+}
+.service:hover{
+    border: 1px solid #3ecf8e;
+    box-shadow: 0 0 20px lightgray;
+}
+.service span {
+    color: #3ecf8e;
+    background: #e3fff2;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 50%;
+    width: 125px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.service h3 {
+    margin-bottom: 25px;
+    color: #151948;
+}
+.service p {
+    color: gray;
+}
