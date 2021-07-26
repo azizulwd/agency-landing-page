@@ -589,3 +589,77 @@ Blog-Css
     color: #3ecf8e;
     margin-right: 5px;
 }
+
+
+
+/* =============================
+Get in touch-Css
+============================= */
+.get_in_touch{
+    margin-bottom: 150px;
+}
+.get_in_touch_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.get_in_touch_title h2{
+    color: #151948;
+}
+.get_in_touch_title p{
+    font-size: 18px;
+    color: gray;
+}
+.get_it_form form .input {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 35px;
+    margin-bottom: 35px;
+}
+.get_it_form form .input input {
+    outline: none;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-family: 'Poppins';
+}
+.get_it_form form .input input:focus{
+    border: 1px solid #3ecf8e;
+    background: #3ecf8e0e;
+}
+.get_it_form form textarea {
+    width: 100%;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-family: 'Poppins';
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 120px;
+}
+.get_it_form form textarea:focus{
+    border: 1px solid #3ecf8e;
+    background: #3ecf8e0e;
+}
+.get_it_form form button {
+    padding: 12px 40px;
+    margin-top: 25px;
+    background: #3ecf8e;
+    border: none;
+    color: #fff;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 8px 9px 0 rgb(96 94 94 / 17%);
+    transition: 0.4s;
+}
+.get_it_form form button:hover{
+    box-shadow: none;
+}
+.get_it_img {
+    text-align: right;
+}
+.get_it_img img{
+    width: 80%;
+}
