@@ -520,3 +520,72 @@ Team-members-Css
 .team .team_info small{
     color: gray;
 }
+
+
+
+/* =============================
+Blog-Css
+============================= */
+.latest_blog{
+    margin-bottom: 150px;
+}
+.blog_section_title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.blog_section_title h2{
+    color: #151948;
+}
+.blog_section_title p{
+    font-size: 18px;
+    color: gray;
+}
+.blogs {
+    gap: 30px;
+}
+.blog {
+    border: 1px solid lightgray;
+    background: #fff;
+    transition: 0.5s;
+}
+.blog:hover{
+    border: 1px solid #3ecf8e;
+    box-shadow: 0 0 25px lightgray;
+}
+.blog:hover .blog_details h3{
+    color: #3ecf8e;
+}
+.blog .blog_img {
+    margin-bottom: 25px;
+}
+.blog .blog_details {
+    padding: 0 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+.blog .blog_details h3 {
+    color: #151948;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.blog .blog_details p {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.blog .blog_details a {
+    color: #3ecf8e;
+    font-size: 14px;
+    font-weight: 600;
+}
+.blog .blog_meta {
+    padding: 25px 30px 40px;
+}
+.blog .blog_meta a {
+    font-size: 14px;
+    color: gray;
+}
+.blog .blog_meta a i{
+    color: #3ecf8e;
+    margin-right: 5px;
+}
