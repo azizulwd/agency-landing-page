@@ -484,6 +484,8 @@ Team-members-Css
 .team_title p{
     font-size: 18px;
     color: gray;
+    width: 570px;
+    margin: 0 auto;
 }
 .teams {
     gap: 30px;
@@ -888,9 +890,26 @@ Footer (Copyright)-Css
     .testimonials{
         padding: 50px 15px;
         height: 100%;
+        margin-bottom: 0;
     }
     .testimonial{
         width: 100%;
         margin: 0;
+    }
+    .team_member{
+        margin-top: 150px;
+        padding: 0 15px;
+    }
+    .team_title{
+        text-align: center;
+    }
+    .team_title p{
+        width: 100%;
+    }
+    .teams{
+        flex-direction: column;
+    }
+    .team .team_img img{
+        width: 100%;
     }
 }
