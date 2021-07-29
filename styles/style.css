@@ -619,6 +619,8 @@ Get in touch-Css
 .get_in_touch_title p{
     font-size: 18px;
     color: gray;
+    width: 570px;
+    margin: 0 auto;
 }
 .get_it_form form .input {
     display: grid;
@@ -927,6 +929,53 @@ Footer (Copyright)-Css
         flex-direction: column;
     }
     .blog .blog_img img{
+        width: 100%;
+    }
+    .get_in_touch{
+        padding: 0 15px;
+    }
+    .get_in_touch_title{
+        text-align: center;
+    }
+    .get_in_touch_title p{
+        width: 100%;
+    }
+    .get_in_touch_container{
+        flex-direction: column;
+    }
+    .get_it_form{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .get_it_form form .input{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 15px;
+        margin-bottom: 15px;
+    }
+    .get_it_form form .input input{
+        width: 100%;
+    }
+    .get_it_img{
+        width: 100%;
+        text-align: center;
+    }
+    footer{
+        padding: 0 15px;
+    }
+    .footer_widget_container{
+        flex-direction: column;
+    }
+    .footer_links{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .footer_links:last-child{
+        margin-bottom: 0;
+    }
+    .footer_links h3 {
+        margin-bottom: 10px;
+    }
+    .footer_links .subscribe input{
         width: 100%;
     }
 }
