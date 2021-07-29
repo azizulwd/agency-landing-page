@@ -774,4 +774,20 @@ Footer (Copyright)-Css
     ul{
         flex-direction: column;
     }
+    .banner{
+        padding: 0 15px;
+        height: 100%;
+    }
+    .banner_container{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .banner_info{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .banner_img{
+        width: 100%;
+        text-align: center;
+    }
 }
