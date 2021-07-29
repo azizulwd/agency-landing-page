@@ -548,6 +548,8 @@ Blog-Css
 .blog_section_title p{
     font-size: 18px;
     color: gray;
+    width: 570px;
+    margin: 0 auto;
 }
 .blogs {
     gap: 30px;
@@ -910,6 +912,21 @@ Footer (Copyright)-Css
         flex-direction: column;
     }
     .team .team_img img{
+        width: 100%;
+    }
+    .latest_blog{
+        padding: 0 15px;
+    }
+    .blog_section_title{
+        text-align: center;
+    }
+    .blog_section_title p{
+        width: 100%;
+    }
+    .blogs{
+        flex-direction: column;
+    }
+    .blog .blog_img img{
         width: 100%;
     }
 }
