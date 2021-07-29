@@ -242,6 +242,8 @@ Service-we-provide-Css
 .service_we_provide_title p {
     font-size: 18px;
     color: gray;
+    width: 570px;
+    margin: 0 auto;
 }
 .service_we_provide_container{
     display: grid;
@@ -810,5 +812,27 @@ Footer (Copyright)-Css
     }
     .strategy_info{
         width: 100%;
+    }
+    .service_we_provide{
+        padding: 0 15px;
+    }
+    .service_we_provide_title{
+        text-align: center;
+    }
+    .service_we_provide_title p{
+        width: 100%;
+    }
+    .service_we_provide_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .service_2{
+        border: none;
+        margin-bottom: 15px;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+    }
+    .service_2 .service_2_info h3{
+        margin-bottom: 15px;
     }
 }
