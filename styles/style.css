@@ -310,6 +310,8 @@ Recent-work-Css
 .recent_work_title p{
     font-size: 18px;
     color: #fff;
+    width: 570px;
+    margin: 0 auto;
 }
 .works{
     margin-top: 50px;
@@ -834,5 +836,36 @@ Footer (Copyright)-Css
     }
     .service_2 .service_2_info h3{
         margin-bottom: 15px;
+    }
+    .recent_work{
+        padding: 0 15px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        width: 100%;
+        height: 100%;
+    }
+    .recent_work_title{
+        text-align: center;
+    }
+    .recent_work_title p{
+        width: 100%;
+    }
+    .works{
+        flex-direction: column;
+    }
+    .work img{
+        height: 255px;
+    }
+    .work_overlay{
+        height: 255px;
+    }
+    .work_overlay_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        width: 100%;
+        height: 100%;
     }
 }
