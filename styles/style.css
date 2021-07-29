@@ -777,6 +777,7 @@ Footer (Copyright)-Css
     .banner{
         padding: 0 15px;
         height: 100%;
+        margin-bottom: 50px;
     }
     .banner_container{
         flex-direction: column;
@@ -789,5 +790,11 @@ Footer (Copyright)-Css
     .banner_img{
         width: 100%;
         text-align: center;
+    }
+    .service_section{
+        padding: 0 15px;
+    }
+    .services{
+        flex-direction: column;
     }
 }
