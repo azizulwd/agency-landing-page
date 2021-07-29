@@ -797,4 +797,18 @@ Footer (Copyright)-Css
     .services{
         flex-direction: column;
     }
+    .business_strategy{
+        padding: 0 15px;
+    }
+    .strategy{
+        flex-direction: column;
+    }
+    .strategy_img{
+        width: 100%;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .strategy_info{
+        width: 100%;
+    }
 }
