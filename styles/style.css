@@ -758,3 +758,20 @@ Footer (Copyright)-Css
 .copyright_text p a{
     color: #3ecf8e;
 }
+
+
+
+
+/* ========================================== Media Query ========================================== */
+/* =========== Mobile Device =========== */
+@media only screen and (max-width: 688px){
+    .container{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+    }
+}
