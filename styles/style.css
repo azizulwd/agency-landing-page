@@ -783,8 +783,14 @@ Footer (Copyright)-Css
     nav{
         flex-direction: column;
     }
-    ul{
+    nav ul{
         flex-direction: column;
+    }
+    nav ul li{
+        margin-bottom: 10px;
+    }
+    nav ul li:last-child{
+        margin-bottom: 0;
     }
     .banner{
         padding: 0 15px;
